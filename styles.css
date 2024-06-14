@@ -1,0 +1,41 @@
+html {
+  font-size: 0.8rem;
+}
+
+.blog-title {
+  margin-top: 8rem;
+}
+
+.team {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.card-text {
+  padding-top: 1rem;
+}
+
+.card-block {
+  min-height: 220px;
+}
+
+.active {
+  border-bottom: 1px solid #000;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-title {
+    margin-top: 9rem;
+  }
+}
